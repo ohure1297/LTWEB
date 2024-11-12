@@ -23,8 +23,7 @@ header h1 {
 }
 
 img {
-    border-style: solid;
-    border-width: 5px;
+    
 }
 
 @media only screen and (max-width: 768px) {
