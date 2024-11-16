@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  justify-items: center;
+  align-items: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.header_tab_button{
+  justify-items: center;
+  padding-bottom: 20px;
+}
