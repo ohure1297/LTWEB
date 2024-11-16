@@ -1,10 +1,15 @@
-/* General Styles */
 body, html {
     font-family: 'Georgia', serif;
     color: #4A2C2A;
     background-color: #F8E7D1;
     margin: 0;
     padding: 0;
+}
+
+blockquote{
+    font-size: 2.5em;
+    font-family: 'Almendra';
+    text-align: center;
 }
 
 .homepage {
@@ -56,10 +61,12 @@ body, html {
 
 .welcome-text {
     background: #FFF;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
     border-radius: 10px;
-    font-size: 18px;
-    width: 45%;
+    font-size: 27px;
+    font-family: 'Allura';
+    width: 30%;
     line-height: 1.6;
 }
 
@@ -72,19 +79,34 @@ body, html {
 .quote-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 40px 0;
-    padding: 0 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.quote-section blockquote {
-    font-size: 22px;
-    margin: 20px 0;
+.quote-section-1 {
+    display: flex;
+    align-items: center;
+}
+
+.quote-section-1 img {
+    margin-right: 5%;
+}
+
+.quote-section-2 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.quote-section-2 img{
+    margin: auto;
+}
+
+.quote-section-2 button{
+    margin: auto;
 }
 
 .dish-image {
-    width: 45%;
+    width: 50%;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -104,21 +126,36 @@ body, html {
 .dining-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 40px 0;
-    padding: 0 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.dining-section blockquote {
-    font-size: 22px;
-    margin: 20px 0;
+.dining-section-1 {
+    display: flex;
+    align-items: center;
+}
+
+.dining-section-1 img{
+    margin-left: 5%;
+}
+
+.dining-section-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.dining-section-2 img{
+    margin: auto;
+}
+
+.dining-section-2 button{
+    margin: auto;
 }
 
 .dining-image {
-    width: 45%;
+    width: 50%;
     border-radius: 10px;
-    margin-top: 20px;
 }
 
 .book-now {
@@ -131,19 +168,3 @@ body, html {
     border-radius: 8px;
     cursor: pointer;
 }
-
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-}
-
-.navbar-brand img {
-    border-radius: 50%; /* Optional, to make the logo circular */
-  }
-  
-  .navbar-brand span {
-    font-weight: bold;
-    font-size: 1.25rem;
-  }

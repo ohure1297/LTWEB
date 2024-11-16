@@ -9,7 +9,7 @@ import RestaurantImage from '../utils/img/restaurant.jpg';
 import Dish1 from '../utils/img/food-1.jpg';
 import Dish2 from '../utils/img/food-2.jpg';
 import RestaurantImage2 from '../utils/img/restaurant-2.jpg';
-import RestaurantImage3 from '../utils/img/restaurant-2.jpg';
+import RestaurantImage3 from '../utils/img/restaurant-3.jpg';
 
 
 function Home() {
@@ -25,23 +25,32 @@ function Home() {
             </section>
 
             {/* Quote Section */}
-            <section className="quote-section">
-                <blockquote>
-                    "Delight in the exquisite and unique dishes that our restaurant has to offer, carefully crafted to provide a memorable dining experience."
-                </blockquote>
-                <img src={Dish1} alt="Dish 1" className="dish-image" />
-                <img src={Dish2} alt="Dish 2" className="dish-image" />
-                <button className="see-more">See more...</button>
+            <section className='quote-section'>
+                <section className="quote-section-1">
+                    <blockquote>
+                        "Delight in the exquisite and unique dishes that our restaurant has to offer, carefully crafted to provide a memorable dining experience."
+                    </blockquote>
+                    <img src={Dish1} alt="Dish 1" className="dish-image" />
+                </section>
+
+                <section className='quote-section-2'>
+                    <button className="see-more">See more...</button>              
+                    <img src={Dish2} alt="Dish 2" className="dish-image"/>
+                </section>
             </section>
 
             {/* Dining Experience Section */}
             <section className="dining-section">
-                <img src={RestaurantImage2} alt="Restaurant Setup" className="dining-image" />
-                <blockquote>
-                    "Offering a memorable and luxurious experience that delights the senses and creates lasting memories for our guests."
-                </blockquote>
-                <img src={RestaurantImage3} alt="Rooftop View" className="dining-image" />
-                <button className="book-now">Book now!</button>
+                <section className='dining-section-1'>
+                    <img src={RestaurantImage2} alt="Restaurant Setup" className="dining-image" />
+                    <blockquote>
+                        "Offering a memorable and luxurious experience that delights the senses and creates lasting memories for our guests."
+                    </blockquote>
+                </section>
+                <section className='dining-section-2'>
+                    <img src={RestaurantImage3} alt="Rooftop View" className="dining-image" />
+                    <button className="book-now">Book now!</button>
+                </section>
             </section>
         </div>
     );

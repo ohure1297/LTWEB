@@ -3,14 +3,15 @@
 }
 
 .main-title {
-    font-size: 2rem;
+    font-size: 4rem;
     font-style: italic;
-    color: #4b2e1c;
-    background-color: #dcb895; /* Light brown background for contrast */
+    color: white;
+    background-color: #49230C; /* Light brown background for contrast */
     padding: 1rem;
     border-radius: 10px;
     width: auto;
     text-align: center;
+    font-family: 'Allura';
 }
 
 /* Contact Info Section */
@@ -37,7 +38,6 @@
 
 /* Map and Directions */
 .map-container {
-    margin: 2rem auto;
     text-align: center;
     position: relative;
 }

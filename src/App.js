@@ -46,7 +46,6 @@ function App() {
         </Container>
       </Navbar>
 
-      {/* Header */}
       <header className="header_tab_button">
           <nav className="nav">
               <a href="/about">ABOUT US</a>
