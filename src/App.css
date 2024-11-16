@@ -46,5 +46,7 @@
 
 .header_tab_button{
   justify-items: center;
+  align-items: center;
+  margin: auto;
   padding-bottom: 20px;
 }

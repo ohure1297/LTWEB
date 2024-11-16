@@ -14,7 +14,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div>
-      <Navbar bg="light" expand={false} variant="light" className="p-3">
+      <Navbar style={{ backgroundColor: '#F3E1C5' }} expand={false} variant="light" className="p-3">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <img
@@ -25,7 +25,7 @@ function App() {
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
-          <h1 className='title'>Welcome to our Reataurant</h1>
+          <h1 className='title'>Welcome to our Restaurant</h1>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -44,9 +44,7 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
-
-      <header className="header_tab_button">
+        <header className="header_tab_button">
           <nav className="nav">
               <a href="/about">ABOUT US</a>
               <a href="/menu">MENUS</a>
@@ -54,6 +52,9 @@ function App() {
               <a href="/contact">CONTACT</a>
           </nav>
       </header>
+      </Navbar>
+
+      
 
       <Routes>
         <Route path="/" element={<Home />} />

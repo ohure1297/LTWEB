@@ -2,14 +2,14 @@ import React from 'react';
 import './About.css';
 import Food1 from '../utils/img/food1.png';
 import Food2 from '../utils/img/food2.png';
-import { ImageGallery } from '../components/ImageGallery';
+import { Team } from '../components/Team';
 import { Reviews } from '../components/Reviews';
 
 function About() {
     return (
         <div className='about-page'>
-            <header className='mt-5'>
-                <div className='container h-100 d-flex align-items-center justify-content-center'>
+            <header className='rounded m-auto'>
+                <div className='container d-flex align-items-center justify-content-center'>
                 </div>
             </header>
 
@@ -21,18 +21,21 @@ function About() {
 
                 <div className='meal-section'>
                     <section className='meal-section-1'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-8'>
                             <img src={Food1} className='img-fluid my-4' alt="" />
                         </div>
-                        <p>COLLETTA CARY
-                            Seasonal changes, outstanding ingredients and a made-from-scratch philosophy guide Colletta's menu of house-made focaccia and pasta, antipastis, made-to-order wood-fired pizzas, and piatti. The chef curated dinner and dessert menus, pair with the well balanced wine and beverage program. 
-                            Located at Fenton in Cary, NC, this casual yet polished family-style Italian restaurant features 120 indoor dining seats, 60 seats outdoors on the semi-covered patio, and a 12-seat bar.</p>
+                        <div className='col-lg-6'>
+                            <p className='w-75'>COLLETTA CARY
+                                Seasonal changes, outstanding ingredients and a made-from-scratch philosophy guide Colletta's menu of house-made focaccia and pasta, antipastis, made-to-order wood-fired pizzas, and piatti. The chef curated dinner and dessert menus, pair with the well balanced wine and beverage program.
+                                Located at Fenton in Cary, NC, this casual yet polished family-style Italian restaurant features 120 indoor dining seats, 60 seats outdoors on the semi-covered patio, and a 12-seat bar.</p>
+                        </div>
                     </section>
-                    <section className='meal-section-2'>
-                        <p>
-                            COLLETTA ATLANTA
-                            Located at Avalon in Alpharetta, GA, Colleta Atlanta's restaurant’s open-concept dining room is anchored around the kitchen’s wood-burning oven, reminiscent of the hearth in a family home. Accented by reclaimed barn wood and refined ceramic tile, the modern space envelops guests in a welcoming atmosphere – whether they’re visiting the bar for a hand-crafted cocktail or a glass of wine, grabbing a pizza with the kids or sitting down for a family-style dinner with friends and colleagues.r.
-                        </p>
+                    <section className='meal-section-2 align-items-center'>
+                        <div className='col-lg-7'>
+                            <p className='w-75'>COLLETTA ATLANTA
+                            Located at Avalon in Alpharetta, GA, Colleta Atlanta's restaurant's open-concept dining room is anchored around the kitchen's wood-burning oven, reminiscent of the hearth in a family home. Accented by reclaimed barn wood and refined ceramic tile, the modern space envelops guests in a welcoming atmosphere - whether they're visiting the bar for a hand-crafted cocktail or a glass of wine, grabbing a pizza with the kids or sitting down for a family-style dinner with friends and colleagues.r.
+                            </p>
+                        </div>
                         <div className='col-lg-6'>
                             <img src={Food2} className='img-fluid my-4' alt="" />
                         </div>
@@ -40,8 +43,8 @@ function About() {
                 </div>
             </div>
 
-            <div className='bg-dark text-light'>
-                <ImageGallery />
+            <div className='my-5'>
+                <Team />
             </div>
 
             <div className='my-5'>
