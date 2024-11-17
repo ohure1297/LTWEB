@@ -1,5 +1,5 @@
 .contact-page {
-    background-color: #F8E7D1;
+    background-color: #F3E1C5;
 }
 
 .main-title {
@@ -40,6 +40,7 @@
 .map-container {
     text-align: center;
     position: relative;
+    background-color: #F3E1C5;
 }
 
 .map-and-logo {
@@ -57,9 +58,10 @@
     border-radius: 10px;
 }
 
-.map-logo {
+.logo {
     width: 34%;
     height: auto;
+    mix-blend-mode: darken;
 }
 
 .get-directions {

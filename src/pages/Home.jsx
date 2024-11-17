@@ -34,7 +34,7 @@ function Home() {
                 </section>
 
                 <section className='quote-section-2'>
-                    <button className="see-more">See more...</button>              
+                    <button className="see-more" onClick={() => window.location.href = '/menu'}>See more...</button>              
                     <img src={Dish2} alt="Dish 2" className="dish-image"/>
                 </section>
             </section>
@@ -49,7 +49,7 @@ function Home() {
                 </section>
                 <section className='dining-section-2'>
                     <img src={RestaurantImage3} alt="Rooftop View" className="dining-image" />
-                    <button className="book-now">Book now!</button>
+                    <button className="book-now"  onClick={() => window.location.href = '/reserve'}>Book now!</button>
                 </section>
             </section>
         </div>

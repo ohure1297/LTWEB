@@ -6,7 +6,7 @@ import { Reviews } from '../components/Reviews';
 import Logo from '../utils/img/Logo-big.png';
 import Position from '../utils/img/position.png';
 
-const Contact = () => {
+function Contact() {
     return (
       <div className="contact-page">
         {/* Main Content Section */}
@@ -39,7 +39,7 @@ const Contact = () => {
           <div className="map-container">
             <div className="map-and-logo">
               <img src={Position} alt="Map" className="map-image" />
-              <img src={Logo} alt="Logo" className="map-logo" />
+              <img src={Logo} alt="Logo" className="logo" />
             </div>
             <button className="get-directions">GET DIRECTIONS</button>
           </div>

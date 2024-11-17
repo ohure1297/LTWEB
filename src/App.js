@@ -51,7 +51,7 @@ function App() {
               <a href="/reserve">RESERVE</a>
               <a href="/contact">CONTACT</a>
           </nav>
-      </header>
+        </header>
       </Navbar>
 
       
@@ -64,7 +64,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <footer className="bg-body-tertiary">
+      <footer style={{ backgroundColor: '#F3E1C5' }}>
         <p className="pt-2 m-0 text-center">©2024 University of Technology and Engineering</p>
         <p className="p-2 m-0 text-center">Created by Tran Minh Quang & Nguyen Duc Tin</p>
       </footer>
